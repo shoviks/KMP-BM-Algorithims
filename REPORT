@@ -1,0 +1,10 @@
+The Boyer-Moore algorithm tends to falter when working with small alphabets like DNA.  
+This is because the skip distance tends to stop growing with the pattern length due to
+frequent substring reoccurrences.  Boyer-Moore algorithm works better when the pattern 
+and the text resemble "natural text" (such as English).  Knuth-Morris-Pratt algorithm
+search for occurrences of a word withing a main text string by employing the observation
+that when a mismatch occurs, the word itself contains sufficient information to determine
+where the next match could begin, therefore bypassing re-examination of previously matched
+characters.  This means Knuth-Morris_Pratt algorithm is better for small sets such as DNA.
+So in conclusion, Boyer-Moore algorithm works more efficiently on long patterns and Knuth-Morris-Pratt
+algorithm works more efficiently on short patterns.

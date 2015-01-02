@@ -1,0 +1,17 @@
+Use the following commands to run program.
+
+To compile:
+
+make compile
+
+Then if you want to use KMP:
+
+make runK
+
+If you want to use BM:
+
+make runB
+
+To clean:
+
+make clean
